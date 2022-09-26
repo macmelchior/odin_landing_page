@@ -38,6 +38,7 @@ a {
 
 h2 {
 	margin: 0 0 10px 0;
+	font-size: 2rem;
 }
 
 a:hover {
@@ -74,6 +75,7 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.2s;
+	font-size: 1.2rem;
 }
 
 button:hover {
@@ -91,6 +93,7 @@ button:hover {
 	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
+	padding-bottom: 40px;
 }
 
 .aboutus-item {
@@ -109,4 +112,50 @@ button:hover {
 
 .aboutus-item p {
 	text-align: center;
+}
+
+.opinions {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--a-hover-color);
+	padding: 40px 20vw;
+}
+
+.opinions p {
+	font-size: clamp(2.5rem, 3vw, 5rem);
+	font-style: italic;
+}
+
+.opinions blockquote {
+	margin: 0;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+}
+
+figcaption {
+	align-self: flex-end;
+}
+
+.signup-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 80px;
+	padding: 40px;
+	background-color: var(--color-6);
+	border-radius: 10px;
+}
+
+.signup{
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.signup p{ 
+	max-width: 75%;
 }
