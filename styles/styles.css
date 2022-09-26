@@ -101,7 +101,7 @@ nav {
 	z-index: 3;
 }
 
-.logo {
+.logo a {
 	display: flex;
 	align-items: center;
 	gap: 20px;
