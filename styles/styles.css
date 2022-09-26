@@ -62,11 +62,6 @@ nav {
 	margin: 40px 0;
 }
 
-.info-img img {
-	width: 35vw;
-	object-fit: cover;
-}
-
 button {
 	padding: 5px 10px;
 	background-color: transparent;
@@ -139,7 +134,7 @@ figcaption {
 	align-self: flex-end;
 }
 
-.signup-container{
+.signup-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -149,13 +144,23 @@ figcaption {
 	border-radius: 10px;
 }
 
-.signup{
+.signup {
 	display: flex;
 	gap: 2rem;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.signup p{ 
+.signup p {
 	max-width: 75%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--hero-bg-color);
+	color: var(--text-color-light);
+	text-align: center;
+	min-height: 5vh;
 }
