@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--hero-bg-color: #4c6fa0;
+	--text-color-light: #eee;
+	--a-hover-color: #a7acb8;
+	--accent-color: #8db5e9;
+	--color-5: #210b2c;
+	--color-6: #fe938c;
+	--color-7: #4c6fa0;
+	--color-8: #f0f4ef;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	width: 100vw;
+	margin: 0;
+}
+
+.hero {
+	padding: 20px 10vw;
+	background-color: var(--hero-bg-color);
+	color: #eee;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: var(--text-color-light);
+}
+
+h2 {
+	margin: 0 0 10px 0;
+}
+
+a:hover {
+	color: var(--a-hover-color);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 60px 0;
+}
+
+.navigation {
+	display: flex;
+	gap: 20px;
+}
+
+.website-info {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+
+.info-img img {
+	width: 35vw;
+	object-fit: cover;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: transparent;
+	color: var(--text-color-light);
+	border: 2px solid var(--text-color-light);
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+button:hover {
+	background-color: var(--accent-color);
+}
+
+.aboutus-header {
+	margin: 40px;
+	text-align: center;
+}
+
+.aboutus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.aboutus-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 250px;
+	margin: 20px;
+}
+
+.aboutus-item .ti {
+	font-size: clamp(2.5rem, 3vw, 5rem);
+	color: var(--accent-color);
+}
+
+.aboutus-item p {
+	text-align: center;
+}
