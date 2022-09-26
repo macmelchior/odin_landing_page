@@ -128,7 +128,7 @@ nav {
 .aboutus {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: baseline;
 	flex-wrap: wrap;
 	width: 100%;
 	padding-bottom: 40px;
