@@ -7,7 +7,7 @@
 	--text-color-light: #eee;
 	--a-hover-color: #a7acb8;
 	--accent-color: #8db5e9;
-	--color-5: #210b2c;
+	--color-5: #10161f;
 	--color-6: #fe938c;
 	--color-7: #f0f4ef;
 }
@@ -44,18 +44,19 @@ h2 {
 }
 
 button {
-	padding: 5px 10px;
+	padding: .5rem 1rem;
 	background-color: transparent;
 	color: var(--text-color-light);
 	border: 2px solid var(--text-color-light);
-	border-radius: 5px;
+	border-radius: 10px;
 	cursor: pointer;
 	transition: 0.2s;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 button:hover {
-	background-color: var(--accent-color);
+	background-color: var(--text-color-light);
+	color: var(--color-5);
 }
 
 .hero {
@@ -197,7 +198,6 @@ figcaption {
 }
 
 .signup button:hover {
-	background-color: var(--text-color-light);
 	color: var(--color-6);
 }
 
