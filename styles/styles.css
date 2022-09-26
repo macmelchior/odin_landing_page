@@ -18,6 +18,11 @@ body {
 	margin: 0;
 }
 
+p,
+figcaption {
+	font-size: 1.2rem;
+}
+
 ul {
 	padding: 0;
 	margin: 0;
@@ -94,12 +99,12 @@ nav {
 	z-index: 3;
 }
 
-.logo{
+.logo {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 	font-size: 4rem;
-	color: var(--text-color-light)
+	color: var(--text-color-light);
 }
 
 .logo p {
