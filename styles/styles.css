@@ -179,8 +179,8 @@ figcaption {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 80px;
-	padding: 40px;
+	margin: 15vh 15vw;
+	padding: 2rem 4rem;
 	background-color: var(--color-6);
 	border-radius: 10px;
 }
@@ -194,6 +194,11 @@ figcaption {
 
 .signup p {
 	max-width: 75%;
+}
+
+.signup button:hover {
+	background-color: var(--text-color-light);
+	color: var(--color-6);
 }
 
 footer {
