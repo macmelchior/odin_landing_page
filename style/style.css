@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+}
+
+.header, footer, .information, .quote, .cta-section {
+	padding: 0px 12.5vw;
+}
+
+.header, footer {
+	display: flex;
+	background-color: #1f2937;
+	color: #f9faf8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header {
+	flex-direction: column;
+	gap: 100px;
+	padding-bottom: 100px;
+}
+
+footer {
+	justify-content: center;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo {
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.nav-links a {
+	color: #f9faf8;
+	text-decoration: none;
+}
+
+.nav-links a, .hero-section p, button.cta-button {
+	font-size: 1.25rem;
+}
+
+.hero-section {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.hero-section h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.information h1 {
+	font-size: 36px;
+}
+
+.hero-left, .hero-right {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	width: 50%
+}
+
+.img-placeholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #777;
+	height: 100%;
+	border-radius: 8px;
+}
+
+.cta-button {
+	background-color: #3882f6;
+	border: none;
+	padding: 10px;
+	border-radius: 8px;
+	max-width: 150px;
+	flex-grow: 1;
+	cursor: pointer;
+}
+
+main, .quote {
+	color: #1f2937;
+}
+
+main h1 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.information {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.information .card {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.card .card-content {
+	min-height: 200px;
+	max-width: 200px;
+	border: 4px solid #3882f6;
+	border-radius: 8px;
+}
+
+.card .card-text {
+	max-width: 200px;
+	text-align: center;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.quote blockquote {
+	font-size: 36px;
+	font-style: italic;
+}
+
+.quote p {
+	font-size: 24px;
+	text-align: right;
+	font-weight: 900;
+}
+
+.cta-section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;}
+
+.cta-card {
+	width: 100%;
+	background-color: #3882f6;
+	color: #e5e7eb;
+	display: flex;
+	justify-content: space-between;
+	padding: 80px;
+	border-radius: 8px;
+
+}
+
+.cta-section button {
+	border: 2px solid #e5e7eb;
+}
